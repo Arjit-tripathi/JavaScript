@@ -1,26 +1,26 @@
-const accountId = 12345
-let accountEmail = "arjittripathi1@gmail.com"
-var accountPassword = "111122"
-accountCity = "jaipur"
+"use strict"; //treat all js code as newer version
 
-let accountState;
+//alert("hello")   // we are using nodejs, not browser
 
-
-//accountId = 2 //not allowed
-
-accountEmail = "gopal@gmail.com"
-accountPassword = 32323
-accountCity = "Noida"
-
-//console.log(accountId);
-
-console.table([accountId, accountEmail, accountPassword, accountCity,accountState])
-
-/*Note : 
-javascript mai const(Constant) and let ko use kiya jata hain,var ko nahi.
-
-var: block scope par iska koi controle nahi hota
-{}=>this scope
+console.log(3+3);  
 
 
-*/
+let name = "arjit"
+let age = 90
+let isLoggedIn = false
+
+//number => 2 to power 53
+//bigint
+//string ->""
+//boolean -> true/false
+//null ==> standalone value
+//undefined ==> abhi value assign nahi hui
+//symbol ==>unique (react use)
+
+//object
+
+
+console.log(typeof "arjit"); //string
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined
+

@@ -1,11 +1,17 @@
-const  accountId = 454545
-let accountEmail = "arjittripathi1@gmail.com"
-var accountPassword = "2222"
+const accountId = 456987
+let accountemail = "arjittripathi1@gmail.com"
+var accountPassword = "090909"
+accountCity = "jaipur"
 
-//accountId = 9 //not change
-accountEmail = "demo@gmail.com"
-accountPassword ="444444444"
+let accountstate;// undefined
 
-//console.log(accountId);
-console.table([accountEmail,accountPassword]);
+console.table([accountId,accountPassword]);
+{
+    //scope
+}
 
+/* 
+prefer not touse var 
+beacuse of issue in block scope and functional scope
+
+*/
